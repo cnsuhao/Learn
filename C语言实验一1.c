@@ -1,8 +1,9 @@
 #include  <stdio.h>
 
-void main()
+int main()
 {
     printf("*************\n");
     printf("How are you !\n");
     printf("*************\n");
+    return 0;
 }
