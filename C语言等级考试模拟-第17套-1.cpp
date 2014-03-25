@@ -1,17 +1,20 @@
 #include  <stdio.h>
 #include  <string.h>
+#include  <conio.h>
+#include  <stdlib.h>
 
 #define N 40
 
-void fun(char *str1,char str2)
+void fun(char *str1,char *str2)
 {
     int i;
     char *p1=str1;
     char *p2=str2;
-    while()
+    while(i<=N)
         i++;
-    for( ; ; i++)
-        *(p1+i)= ;
+    for( ;i<=2*N; i++)
+        *(p1+i)=*(p2+i-N);
+
         *(p1+i)='\0';
 }
 
@@ -19,7 +22,7 @@ int main()
 {
      char str1[N],str2[N];
      int m,n,k;
-     clrscr() ;
+     //clrscr() ;
      printf("******* Input the  string str1 & str2*******\n ");
      printf(" \nstr1:");
      gets (str1);
